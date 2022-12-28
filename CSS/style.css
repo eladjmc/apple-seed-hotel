@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text_primary{
+    color: #f7c08a;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.bg_dark{
+    background-color: #333;
+    color: white;
+}
+
+.btn_dark{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+}
+
+.btn_light{
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    background-color: white;
+    padding: 13px 20px;
+    border: none;
+}
+
+.btn_light:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.btn_dark:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+.navbar a {
+    color: white;
+}
+
+.navbar h1{
+    float: left;
+    padding: 20px;
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar li a:hover, a.current {
+    background-color: #444;
+    color: #f7c08a;
+}
+
+.showcase{
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+.showcase .showcase_content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+.showcase .showcase_content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.showcase .showcase_content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.home_info{
+    height: 400px;
+}
+.home_info .info_img{
+    float: left;
+    width: 50%;
+    background: url('../images/photo-1.jpg');
+    min-height: 100%;
+}
+.home_info .info_content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+
