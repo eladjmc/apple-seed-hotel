@@ -25,24 +25,24 @@ p {
   margin: 10px 0;
 }
 
-.l_heading{
-    font-size: 40px;
+.l_heading {
+  font-size: 40px;
 }
 
 .clr {
   clear: both;
 }
 
-.py_1{
-    padding:10px 0;
+.py_1 {
+  padding: 10px 0;
 }
 
-.py_2{
-    padding:20px 0;
+.py_2 {
+  padding: 20px 0;
 }
 
-.py_3{
-    padding:30px 0;
+.py_3 {
+  padding: 30px 0;
 }
 
 .container {
@@ -204,31 +204,57 @@ a.current {
   border-radius: 50%;
 }
 .about_info .info_left {
-    float: left;
-    width: 50%;
-    min-height: 100%;
+  float: left;
+  width: 50%;
+  min-height: 100%;
 }
 
-.testimonials{
-    height: 600px;
-    background: url('../images/test-bg.jpg') no-repeat center center/cover;
-    padding-top: 100px;
+.testimonials {
+  height: 600px;
+  background: url("../images/test-bg.jpg") no-repeat center center/cover;
+  padding-top: 100px;
 }
 
-.testimonial img{
-    width: 100px; 
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
+.testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
-.testimonials h2{
-    color: white;
-    text-align: center;
-    padding-bottom: 40px;
+.testimonials h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
 }
-.testimonial{
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    opacity: 0.87;
+.testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.87;
+}
+
+.form_group {
+  margin-bottom: 20px;
+}
+
+.contact_form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact_form textarea {
+  height: 200px;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
 }
